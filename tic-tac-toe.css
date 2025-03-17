@@ -1,0 +1,102 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-image: url("bg-2.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+}
+
+main {
+    margin: 15vmin;
+}
+
+h1{
+    font-family: "Playwrite HU", cursive;
+    font-size: 60px;
+    color: white;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 40px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 9, 0, 0.05) 0px 0px 0px 1px inset;
+    font-size: 8vmin;
+    color: #370617;
+    background-color: #ffffff9a;
+}
+
+#reset-btn {
+    padding: 1rem;
+    width: 28vw;
+    font-family: "Playwrite HU", cursive;
+    font-size: 1.85rem;
+    font-weight: bold;
+    background-color: #f514144e;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#new-btn {
+    margin-top: 3vmin;
+    padding: 1rem;
+    width: 28vw;
+    font-family: "Playwrite HU", cursive;
+    font-size: 1.85rem;
+    font-weight: bold;
+    background-color: #f91a1a50;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#msg {
+    font-family: "Playwrite HU", cursive;
+    color: white;
+    font-size: 5vmin;
+
+}
+
+.msg-container {
+    margin-top: 2vmin;
+    height: 10vmin;
+}
+
+
+
+.hide {
+    display: none;
+}
